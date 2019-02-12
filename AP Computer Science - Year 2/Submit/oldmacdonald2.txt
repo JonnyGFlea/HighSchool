@@ -1,0 +1,22 @@
+For fun, try replacing your main method with the following code:
+
+BasicWordle program = new BasicWordle("oldmacdonald.txt");
+program.addWindowListener(new WindowAdapter()
+             {
+                   public void windowClosing(WindowEvent e)
+                   {
+                        System.exit(0);
+                   }
+             }
+        );
+
+BasicWordle program2 = new BasicWordle("oldmacdonald2.txt");  //you will need to make another text file
+program2.setLocation(600,100);
+program2.addWindowListener(new WindowAdapter()
+             {
+                   public void windowClosing(WindowEvent e)
+                   {
+                         System.exit(0);
+                   }
+             }
+        );

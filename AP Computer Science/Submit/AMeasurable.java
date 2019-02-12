@@ -1,8 +1,0 @@
-abstract public class AMeasurable
-{
-	
-	
-	
-	
-	
-}
